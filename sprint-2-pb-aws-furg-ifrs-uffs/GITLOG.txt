@@ -1,0 +1,140 @@
+commit f7d2724b77d506a80b76f339d8c5a084f9677ff7
+Author: luizpgt <luiz.paulus51@gmail.com>
+Date:   Mon Jul 17 15:29:15 2023 -0300
+
+    docs: readme updated
+
+commit c21e2ae8f5dff0714f272a4daf14581a6b3a5e91
+Author: joaowinderfeldbussolotto <joaowinderfeldbussolotto@gmail.com>
+Date:   Mon Jul 17 15:25:04 2023 -0300
+
+    :bulb: docs:commenting code
+
+commit 3d6482c1606e93b0894b1e904c75056c9df9aa28
+Author: luizpgt <luiz.paulus51@gmail.com>
+Date:   Mon Jul 17 15:07:45 2023 -0300
+
+    fix: error handling
+
+commit b6b903519f85eef0d2238ae3bd705bdfc0c23386
+Author: luizpgt <luiz.paulus51@gmail.com>
+Date:   Mon Jul 17 02:14:40 2023 -0300
+
+    feat n fix: added more routes and organized/refactored old ones + search comic id field
+
+commit 7f61bf496791195a2b9d7ac5d156134af456c307
+Author: luizpgt <luiz.paulus51@gmail.com>
+Date:   Sun Jul 16 23:05:04 2023 -0300
+
+    fix: more error handling added + giphy key is officially optional
+
+commit 205e3f4c057c08e93eaf7f9d61ebfd32103ec675
+Author: luizpgt <luiz.paulus51@gmail.com>
+Date:   Sun Jul 16 22:24:45 2023 -0300
+
+    feat n fix: code refactor + mvc pattern
+
+commit 92b84fd3eebf2cdb4e97545d64771b33e534fd69
+Author: luizpgt <luiz.paulus51@gmail.com>
+Date:   Sun Jul 16 19:13:28 2023 -0300
+
+    fix and docs: file structure + readme updated
+
+commit 4ffc4212d16e95b2c81a0eac7b1eed04f8532efd
+Merge: 79b5675 8e6d7ef
+Author: Luiz Augusto Scarsi <116020373+LuizScarsi@users.noreply.github.com>
+Date:   Thu Jul 13 16:06:16 2023 -0300
+
+    Merge pull request #1 from LuizScarsi/equipe-1
+    
+    Equipe 1
+
+commit 8e6d7ef948ac2219c360c8a850ed8c952a488757
+Author: Luiz Augusto Scarsi <116020373+LuizScarsi@users.noreply.github.com>
+Date:   Thu Jul 13 15:41:17 2023 -0300
+
+    docs: update README
+
+commit b8609e2b48e326dc22866d3bd2dc08e5f9c59b0c
+Author: Angemydelson SAINT-BERT <delsonysuperdel@gmail.com>
+Date:   Thu Jul 13 15:24:23 2023 -0300
+
+    docs: code commenting
+
+commit 3525243c09b62cd649cbd80bfebac519a23d345b
+Author: joaowinderfeldbussolotto <joaowinderfeldbussolotto@gmail.com>
+Date:   Thu Jul 13 14:58:26 2023 -0300
+
+    :sparkles: feat: adding prev, random and next buttons
+
+commit d2b1d0fdca7bdf939bf95c187f1f46c201841f96
+Author: Luiz Augusto Scarsi <116020373+LuizScarsi@users.noreply.github.com>
+Date:   Wed Jul 12 17:04:10 2023 -0300
+
+    style: change page layout and gif size
+
+commit 113047923f247393af70c8c3fc55e5e5cc37784a
+Author: Luiz Augusto Scarsi <116020373+LuizScarsi@users.noreply.github.com>
+Date:   Wed Jul 12 16:40:29 2023 -0300
+
+    refactor: use a single function for XKCD request
+
+commit c52ad060fc69b7a3318a33827f88b90593ee5749
+Author: Luiz Augusto Scarsi <116020373+LuizScarsi@users.noreply.github.com>
+Date:   Wed Jul 12 15:14:01 2023 -0300
+
+    :sparkles: feat: define random route, add gifs
+
+commit 027fb4bb01e83f77fb71e92fe7cab62f360381e8
+Author: Luiz Augusto Scarsi <116020373+LuizScarsi@users.noreply.github.com>
+Date:   Wed Jul 12 14:43:51 2023 -0300
+
+    :sparkles: feat: request randomComic from XKCD API
+
+commit 45033af8f5ad7ac2970fab28e75169d45ccca5fa
+Author: joaowinderfeldbussolotto <joaowinderfeldbussolotto@gmail.com>
+Date:   Tue Jul 11 21:53:44 2023 -0300
+
+    :sparkles: feat: adding OOP classes and gifs to homepage
+
+commit 399dcfdf8b1bb6f75b738a031c980e53048e22a3
+Author: luizpgt <luiz.paulus51@gmail.com>
+Date:   Tue Jul 11 11:53:57 2023 -0300
+
+    feat: front n back using hbs + simple home page
+
+commit c87da2709e1ae8161a8d63550bdb30e680080041
+Author: Luiz Augusto Scarsi <116020373+LuizScarsi@users.noreply.github.com>
+Date:   Mon Jul 10 17:51:04 2023 -0300
+
+    :sparkle: feat: add request to XKCD API
+
+commit da66f0036aea06a8c50cac73ed9162fe1985e8c2
+Author: joaowinderfeldbussolotto <joaowinderfeldbussolotto@gmail.com>
+Date:   Mon Jul 10 15:42:10 2023 -0300
+
+    :sparkles: feat: adding request to GIPHY API
+
+commit 79b5675801eea3ce1a640de2386e6e03debd319f
+Author: luizpgt <luiz.paulus51@gmail.com>
+Date:   Sat Jul 8 14:09:43 2023 -0300
+
+    docs: readme modified: +1 member + api links
+
+commit 4a4574c41491399145500b20e4bb950aed673490
+Author: luizpgt <luiz.paulus51@gmail.com>
+Date:   Fri Jul 7 14:55:50 2023 -0300
+
+    init: branch started + choosing apis and crew
+
+commit 2f461ab3096d8f2e9c612612a591c47231c71488
+Author: daniel-compasso <76558798+daniel-compasso@users.noreply.github.com>
+Date:   Fri Jul 7 12:00:47 2023 -0300
+
+    :tada: init: evaluation launching.
+
+commit 5bef70c8bf681c68887eef7e2fcd293f38d01005
+Author: daniel-compasso <76558798+daniel-compasso@users.noreply.github.com>
+Date:   Fri Jul 7 11:59:28 2023 -0300
+
+    Initial commit

@@ -1,0 +1,90 @@
+service: auth-service-backend
+frameworkVersion: '3'
+useDotenv: true
+provider:
+  name: aws
+  runtime: python3.9
+  environment:
+    BUCKET_NAME: ${ssm:uffs-bot-auth-bucket-name}
+    DYNAMO_DB_USERS_TABLE: ${ssm:uffs-bot-users-table-name}
+    BOT_BACKEND_API_URL: ${env:BOT_BACKEND_API_URL}
+    TOKEN_EXPIRATION_IN_MINUTES: ${env:TOKEN_EXPIRATION_IN_MINUTES}
+
+  iam:
+    role:
+      name: iam-for-lambda-tts
+      statements:
+        - Effect: Allow
+          Action: s3:ListBucket
+          Resource:
+            - arn:aws:s3:::${self:provider.environment.BUCKET_NAME}
+        - Effect: Allow
+          Action:
+            - s3:GetObject
+            - s3:PutObject
+            - s3:DeleteObject
+            - s3:ListObject
+          Resource:
+            - arn:aws:s3:::${self:provider.environment.BUCKET_NAME}/*
+        - Effect: Allow
+          Action:
+            - rekognition:*
+          Resource:
+            - "*"
+        - Effect: Allow
+          Action:
+            - dynamodb:PutItem
+            - dynamodb:GetItem
+            - dynamodb:UpdateItem
+            - dynamodb:Scan
+          Resource:
+            - arn:aws:dynamodb:us-east-1:*:table/${self:provider.environment.DYNAMO_DB_USERS_TABLE}
+        - Effect: Allow
+          Action:
+            - lex:*
+          Resource:
+            - "*"
+      
+functions:
+  createLivenessSession:
+    handler: create_liveness_session.handler
+    events:
+      - http:
+          path: /create
+          method: get
+          cors: true
+
+  authenticate:
+    handler: authenticate.handler
+    events:
+      - http:
+          path: /results
+          method: post
+          cors: true
+
+  tokenExpirationCheck:
+    handler: token_expiration_check.handler
+    events:
+      - http: 
+          path: /token
+          method: post
+          cors: true
+  signIn:
+    handler: sign_in.sign_in_handler
+
+  cleanUpBucket:
+    handler: s3_cleanup.handler
+    events: 
+      - schedule: rate(2 hours)
+
+   
+      
+
+plugins:
+  - serverless-offline
+  - serverless-python-requirements
+
+package:
+  exclude:
+    - node_modules/**
+    - venv/**

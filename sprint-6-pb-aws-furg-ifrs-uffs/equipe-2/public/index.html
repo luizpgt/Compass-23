@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/faviconV2.png" type="image/x-icon" />   
+    <link rel="stylesheet" type="text/css" href="./css/styles.css" />
+    <script></script>
+    <title>Compass PB Assistente</title>
+</head>
+<body>    
+  <div class="principal">
+    <div class="elipse-1">
+    </div>
+    <div class="elipse-2">
+    </div>
+    <div class="elipse-3">
+    </div>
+    <p class="compass-pb-assistente-jDZ gradient-text">Compass PB Assistente</p>
+    <div class="forms-input">
+      <form class="frame-2-aud">        
+        <input
+          class="frase"
+          id="phrase"
+          type="text"
+          placeholder="Digite uma frase"
+          oninput="changeTextColor()"
+          required 
+        />
+      </form>      
+    </div>
+    <div class="button-area">
+      <button class="button web-button-v1">
+        <img class="magicwand" src="./img/magicwand.png" alt="Ícone" value="v1">
+        <p class="text-button">Gerar audio v1</p>
+      </button>
+      <button class="button web-button-v2">
+        <img class="magicwand" src="./img/magicwand.png" alt="Ícone" value="v2">
+        <p class="text-button">Gerar audio v2</p>
+      </button>
+      <button class="button web-button-v3">
+        <img class="magicwand" src="./img/magicwand.png" alt="Ícone" value="v3">
+        <p class="text-button">Gerar audio v3</p>
+      </button>      
+  </div>   
+
+    <div class="resposta resposta-v2" id="resposta">
+      <p id="frase-recebida"></p>
+      <p id="url"><br></p>
+      <p id="data"><br></p> 
+      <p id="hash"></p>
+      <audio class="audio" controls src="https://akiaiowmyt6vxaidogxa-lw-audio.s3.amazonaws.com/lw/1502872370049.mp3" preload="auto" id="audio_player" type="audio/mp3">
+      </audio>
+    </div>
+    
+  </div>
+  <script src="./js/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,243 @@
+commit bd2dc077bf05ed9cb61c14beaedd4e7373c7ecf6
+Author: luizpgt <luiz.paulus51@gmail.com>
+Date:   Mon Oct 2 10:09:06 2023 -0300
+
+    📝 docs: local instalation and project configuration
+
+commit b8d88557bb06a0eeacd4a432302f5464680689f9
+Author: luizpgt <luiz.paulus51@gmail.com>
+Date:   Fri Sep 29 17:06:29 2023 -0300
+
+    🔨 refactor: code review
+
+commit 7388bd7b2fad2c2dbf1fe8aacaf370d805494207
+Author: luizpgt <luiz.paulus51@gmail.com>
+Date:   Fri Sep 29 16:42:36 2023 -0300
+
+    📝 docs: responses status code added + in/out examples
+
+commit 1bd7a1ee08c9e15ba79f993847f5e6d237fdd644
+Author: luizpgt <luiz.paulus51@gmail.com>
+Date:   Fri Sep 29 16:18:54 2023 -0300
+
+    📝 docs: updating files structure and configuration
+
+commit 87a44e658d32b6da746f3b66514c346a1cf01d6a
+Author: luizpgt <luiz.paulus51@gmail.com>
+Date:   Fri Sep 29 16:16:43 2023 -0300
+
+    🔧 fix n feat: config files organization
+
+commit a4078f36db6019e19701b823d33c1ab758f875cb
+Author: luizpgt <luiz.paulus51@gmail.com>
+Date:   Fri Sep 29 15:11:44 2023 -0300
+
+    🐛 fix: empty bucket name entry no longer leads to 500 code
+
+commit 8179be04f93091335a6de657731ab896acfc36ed
+Author: Josué Fernandes <josue7mf@hotmail.com>
+Date:   Fri Sep 29 15:02:01 2023 -0300
+
+    :sparkles: feat: Add exceptions messages from env file
+
+commit a3b072e7f5c4b9fb6253f73cbf8ffc74500adad2
+Author: luizpgt <luiz.paulus51@gmail.com>
+Date:   Fri Sep 29 14:29:37 2023 -0300
+
+    🐛 fix: bucket name none on url_to_image response field
+
+commit 4ac063b05ce86f7512523280b716ab06a9bb8fbd
+Author: Crisofer Gaier Sais <cristofer.gaier.sais@gmail.com>
+Date:   Fri Sep 29 10:12:40 2023 -0300
+
+    :memo: docs:Adding How to Use topic to the project readme
+
+commit 3737e349ea3493ac133587bdd60279ba885031a0
+Author: joaowinderfeldbussolotto <joaowinderfeldbussolotto@gmail.com>
+Date:   Fri Sep 29 00:13:13 2023 -0300
+
+    :bug: fix: bug on NoSuchKey exception fixed
+
+commit e18b7cbe754c4f84b6d990e2f3d92ec3879067b7
+Merge: 69040bd 581de1c
+Author: Crisofer Gaier Sais <cristofer.gaier.sais@gmail.com>
+Date:   Thu Sep 28 16:12:47 2023 -0300
+
+    :memo: docs: Adding License topic to README.md
+
+commit 581de1cc3b340fdb26383047b70381eb8845e1d7
+Author: Josué Fernandes <josue7mf@hotmail.com>
+Date:   Thu Sep 28 16:10:32 2023 -0300
+
+    :sparkles: feat: add http requests for testing
+
+commit 69040bdfdbf9549b5b319693ea58ed5df2b784cb
+Author: Crisofer Gaier Sais <cristofer.gaier.sais@gmail.com>
+Date:   Thu Sep 28 16:10:50 2023 -0300
+
+    :memo: docs: Finalizing Readme of the project without the folder architecture topic
+
+commit 20d1e4b3a3c560fdf6e2bd81574c5a4dc80c92ea
+Author: luizpgt <luiz.paulus51@gmail.com>
+Date:   Thu Sep 28 15:59:55 2023 -0300
+
+    🗃️ dataset: images with no faces added
+
+commit d5cd2364db0b3d048fdbd3f15def62e5a4c1ca2f
+Author: luizpgt <luiz.paulus51@gmail.com>
+Date:   Thu Sep 28 15:16:17 2023 -0300
+
+    :hammer: fix: v2/vision response to images without faces
+
+commit 953d918ad2e5a4836ff7df18290afe9ed066b08c
+Author: joaowinderfeldbussolotto <joaowinderfeldbussolotto@gmail.com>
+Date:   Thu Sep 28 14:15:57 2023 -0300
+
+    :hammer: refactor: removing unused imports
+
+commit c049b41e70f258b94ec2f8ea14c0ccb8f85e0943
+Author: joaowinderfeldbussolotto <joaowinderfeldbussolotto@gmail.com>
+Date:   Thu Sep 28 14:00:33 2023 -0300
+
+    :sparkles: feat: adding error handling middleware
+
+commit 13e1e4ffefd04299c5ccd927e1e76ba191ab8de5
+Author: joaowinderfeldbussolotto <joaowinderfeldbussolotto@gmail.com>
+Date:   Thu Sep 28 10:43:27 2023 -0300
+
+    :sparkles: feat: adding s3 exceptions
+
+commit b3a97e4964ba5290da0cf62124cde53bbdd59c4a
+Author: joaowinderfeldbussolotto <joaowinderfeldbussolotto@gmail.com>
+Date:   Thu Sep 28 09:39:32 2023 -0300
+
+    :sparkles: feat: adding user exceptions
+
+commit 8c066a0db3918bb5d28239d3b0a641c8209dbc63
+Author: joaowinderfeldbussolotto <joaowinderfeldbussolotto@gmail.com>
+Date:   Thu Sep 28 09:00:01 2023 -0300
+
+    :construction_worker: env: altering bucket policy
+
+commit aa8a3770f5d510603066f4c6c69e6b925dc15cf2
+Merge: 3c700af fe4ed90
+Author: joaowinderfeldbussolotto <joaowinderfeldbussolotto@gmail.com>
+Date:   Thu Sep 28 08:44:40 2023 -0300
+
+    Merge branch 'equipe-3' of https://github.com/Compass-pb-aws-2023-FURG-IFRS-UFFS/sprint-8-pb-aws-furg-ifrs-uffs into equipe-3
+
+commit fe4ed908db00fe2bcac8c967ed94d63db073eb79
+Author: Josué Fernandes <josue7mf@hotmail.com>
+Date:   Wed Sep 27 20:42:10 2023 -0300
+
+    :sparkles: feat: Added base custom exception and Rekognition exceptions
+
+commit 49ea2af34fe918a3cd679119ed79c3cbd928aeea
+Author: Josué Fernandes <josue7mf@hotmail.com>
+Date:   Wed Sep 27 18:14:49 2023 -0300
+
+    :sparkles: feat: add pep8 pattern and snake_case for files
+
+commit cafab2517db06a8d375aa268fa8afadb9293e6d7
+Merge: 11fbdb6 98cc305
+Author: Crisofer Gaier Sais <cristofer.gaier.sais@gmail.com>
+Date:   Wed Sep 27 15:25:07 2023 -0300
+
+    :sparkles: feat: add v2 to serverless
+
+commit 3c700af9e39ece2c9f2f3321f792d855d6295690
+Merge: 11fbdb6 98cc305
+Author: Crisofer Gaier Sais <cristofer.gaier.sais@gmail.com>
+Date:   Wed Sep 27 15:25:07 2023 -0300
+
+    Merge branch 'equipe-3' of https://github.com/Compass-pb-aws-2023-FURG-IFRS-UFFS/sprint-8-pb-aws-furg-ifrs-uffs into equipe-3
+
+commit 11fbdb6f0fed1b5e70eb82b99cee574d9b6c0337
+Author: Crisofer Gaier Sais <cristofer.gaier.sais@gmail.com>
+Date:   Wed Sep 27 15:24:46 2023 -0300
+
+    :memo: docs: Adding Initial Readme.
+
+commit 98cc30577ff02e3a453612b3014ffaebf4f75eb8
+Author: luizpgt <luiz.paulus51@gmail.com>
+Date:   Wed Sep 27 14:59:31 2023 -0300
+
+    ✨feat: v2/vision route fully implemented
+
+commit 9a8a6c441a72dec8525714946cad22c7b7ff2e9a
+Author: Crisofer Gaier Sais <cristofer.gaier.sais@gmail.com>
+Date:   Tue Sep 26 12:09:01 2023 -0300
+
+    :sparkles: feat: Implementation of the v1/vision route and creation of functions common to the other APIs in utils.py and S3Service.py
+
+commit 3c38607c87914c133553ec25bc66a0fd54d5aabd
+Author: Josué Fernandes <josue7mf@hotmail.com>
+Date:   Tue Sep 26 04:00:22 2023 -0300
+
+    :hammer: refactor: new routes config and add files to gitignore
+
+commit d6d7ee64407d1bc2151e030cd8a2317e7450dac7
+Author: Josué Fernandes <josue7mf@hotmail.com>
+Date:   Mon Sep 25 17:09:04 2023 -0300
+
+    :sparkles: feat: add rekognition service
+
+commit 7bb7c619da5f76d808e8e3299d390c202d2850e6
+Author: luizpgt <luiz.paulus51@gmail.com>
+Date:   Mon Sep 25 16:32:17 2023 -0300
+
+    :card_file_box: :wrench: dataset: dataset upload images + aws cli script to sync images with s3
+
+commit 10036fb294e10c51b9bae3c9f9105676bfd19b96
+Author: Josué Fernandes <josue7mf@hotmail.com>
+Date:   Mon Sep 25 15:58:43 2023 -0300
+
+    :sparkles: feat: add initial routes
+
+commit a21cbaba2c00b3bd07e688db570b36881ba581ea
+Author: Josué Fernandes <josue7mf@hotmail.com>
+Date:   Mon Sep 25 15:22:26 2023 -0300
+
+    :sparkles: feat: add initial configuration folders
+
+commit f79b0ef24c4773ba108da516b5c3b225ae894f0b
+Author: joaowinderfeldbussolotto <joaowinderfeldbussolotto@gmail.com>
+Date:   Mon Sep 25 14:38:36 2023 -0300
+
+    :construction_worker: env: creating S3 Bucket
+
+commit 61b827b55b10cd7be168e97e42bc900247dca810
+Author: daniel-compasso <76558798+daniel-compasso@users.noreply.github.com>
+Date:   Fri Sep 15 15:30:40 2023 -0300
+
+    docs: correção de data.
+
+commit 980014c1a653abf41b60d7db0b0f436b9af28cde
+Author: Derick Cardoso da Silva <derick.cardoso17@gmail.com>
+Date:   Thu Sep 14 12:40:45 2023 -0300
+
+    Update README.md
+
+commit 70382dec1187c1522226569115c266e9c8164d57
+Author: Derick Cardoso da Silva <derick.cardoso17@gmail.com>
+Date:   Thu Sep 14 12:34:31 2023 -0300
+
+    docs: adding path "visao-computacional"
+
+commit a8083e0e2d97498fd4a59645b2e517c0324759a2
+Author: Derick Cardoso da Silva <derick.cardoso17@gmail.com>
+Date:   Thu Sep 14 12:33:38 2023 -0300
+
+    docs: adding assets
+
+commit 128ea9f5e64b68d7b69a8cb9950692e9b6a69a4d
+Author: Derick Cardoso da Silva <derick.cardoso17@gmail.com>
+Date:   Thu Sep 14 12:32:57 2023 -0300
+
+    Update README.md
+
+commit 12fef3b079751d0cff1a1d95b06a7fb3f52e747c
+Author: Derick Cardoso da Silva <derick.cardoso17@gmail.com>
+Date:   Thu Sep 14 12:31:08 2023 -0300
+
+    Initial commit

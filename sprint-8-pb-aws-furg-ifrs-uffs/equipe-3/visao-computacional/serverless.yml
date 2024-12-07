@@ -1,0 +1,117 @@
+service: vision
+frameworkVersion: '3'
+useDotenv: true
+
+provider:
+  name: aws
+  runtime: python3.11
+  region: us-east-1
+  environment: 
+    BUCKET_NAME: ${env:BUCKET_NAME}
+    USER_DEFAULT_ERROR: ${env:USER_DEFAULT_ERROR}
+    MISSING_PARAM_ERROR: ${env:MISSING_PARAM_ERROR}
+    REKOGNITION_DEFAULT_ERROR: ${env:REKOGNITION_DEFAULT_ERROR}
+    REKOGNITION_INVALID_S3_ERROR: ${env:REKOGNITION_INVALID_S3_ERROR}
+    REKOGNITION_RATE_LIMIT_ERROR: ${env:REKOGNITION_RATE_LIMIT_ERROR}
+    S3_DEFAULT_ERROR: ${env:S3_DEFAULT_ERROR}
+    S3_BUCKET_NOT_FOUND_ERROR: ${env:S3_BUCKET_NOT_FOUND_ERROR}
+    S3_ACCESS_DENIED_ERROR: ${env:S3_ACCESS_DENIED_ERROR}
+    S3_KEY_NOT_FOUND_ERROR: ${env:S3_KEY_NOT_FOUND_ERROR}
+  iam:
+    role:
+      name: role-for-computer-vision-app
+      statements:
+        - Effect: Allow
+          Action:
+            - s3:GetObject
+            - s3:GetObjectAttributes
+          Resource:
+            - arn:aws:s3:::${env:BUCKET_NAME}/*
+        - Effect: Allow
+          Action:
+            - rekognition:DetectLabels
+            - rekognition:DetectFaces
+          Resource: "*"
+
+resources:
+  Resources:
+    MyS3Bucket:
+      Type: AWS::S3::Bucket
+      Properties:
+        BucketName: ${env:BUCKET_NAME}
+        PublicAccessBlockConfiguration:
+          BlockPublicPolicy: false
+          RestrictPublicBuckets: false
+    
+    MyBucketPolicy:
+      Type: AWS::S3::BucketPolicy
+      Properties:
+        Bucket:
+          Ref: MyS3Bucket
+        PolicyDocument:
+          Version: '2012-10-17'
+          Statement:
+            - Effect: Allow
+              Principal:
+                AWS: "*"
+              Action: 
+                - s3:GetObject
+                - s3:GetObjectAttributes
+              Resource:
+                Fn::Join:
+                  - ""
+                  - - "arn:aws:s3:::"
+                    - Ref: MyS3Bucket
+                    - "/*"
+            - Effect: Allow
+              Principal:
+                AWS: "arn:aws:iam::${aws:accountId}:role/${self:provider.iam.role.name}"
+              Action: 
+                - s3:ListBucket
+              Resource:
+                Fn::Join:
+                  - ""
+                  - - "arn:aws:s3:::"
+                    - Ref: MyS3Bucket
+              
+
+
+
+functions:
+  health:
+    handler: routes/health.health
+    events:
+      - httpApi:
+          path: /
+          method: get
+  v1Description:
+    handler: routes/v1/v1_description.v1_description
+    events:
+      - httpApi:
+          path: /v1
+          method: get
+  v1Vision:
+    handler: routes/v1/v1_vision.post_v1_vision
+    events:
+      - httpApi:
+          path: /v1/vision
+          method: post
+  v2Description:
+    handler: routes/v2/v2_description.v2_description
+    events:
+      - httpApi:
+          path: /v2
+          method: get
+  v2Vision:
+    handler: routes/v2/v2_vision.post_v2_vision
+    events:
+      - httpApi:
+          path: /v2/vision
+          method: post
+          
+plugins:
+  - serverless-offline
+  - serverless-python-requirements
+custom:
+  serverless-offline:
+    host: '127.0.0.1'

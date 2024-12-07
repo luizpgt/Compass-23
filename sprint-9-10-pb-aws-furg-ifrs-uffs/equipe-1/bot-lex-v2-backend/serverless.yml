@@ -1,0 +1,117 @@
+service: uffs-bot-backend
+
+useDotenv: true
+
+provider:
+  name: aws
+  runtime: python3.8
+  stage: dev
+  region: us-east-1 
+  environment:
+    ContactUsIntent: ${env:ContactUsIntent}
+    GetContactIntent: ${env:GetContactIntent}
+    GetDocumentsIntent: ${env:GetDocumentsIntent}
+    GetNewsIntent: ${env:GetNewsIntent}
+    ScheduleIntent: ${env:ScheduleIntent}
+
+    CC_API_BASE_URL: ${env:CC_API_BASE_URL}
+    LEX_ALIAS_ID: ${env:BOT_ALIAS_ID}
+    LEX_BOT_ID: ${env:BOT_ID}
+    TELEGRAM_TOKEN: ${env:TELEGRAM_TOKEN}
+    
+    AUTH_API_URL: ${env:AUTH_API_URL}
+    BUCKET_NAME: ${ssm:uffs-bot-auth-bucket-name}
+    DYNAMO_DB_USERS_TABLE: ${ssm:uffs-bot-users-table-name}
+    SIGN_IN_LAMBDA: ${env:SIGN_IN_LAMBDA}
+    
+    SNS_TOPIC_ARN: ${ssm:uffs-bot-developers-topic-arn}
+
+    NEWS_BUCKET_NAME: ${ssm:uffs-bot-news-bucket-name}
+    NEWS_FOLDER_NAME: ${env:NEWS_FOLDER_NAME}
+    NEWS_TABLE_NAME: ${ssm:uffs-bot-news-table-name}
+
+  iam:
+    role:
+      name: role-for-middleware-lambda-lex-bot
+      statements:
+        - Effect: Allow
+          Action:
+            - s3:GetObject
+            - s3:PutObject
+          Resource:
+            - arn:aws:s3:::${self:provider.environment.BUCKET_NAME}/*
+        - Effect: Allow
+          Action:
+            - s3:GetObject
+            - s3:PutObject
+            - s3:DeleteObject
+          Resource:
+            - arn:aws:s3:::${self:provider.environment.NEWS_BUCKET_NAME}/*
+        - Effect: Allow
+          Action:
+            - dynamodb:PutItem
+            - dynamodb:GetItem
+            - dynamodb:UpdateItem
+          Resource:
+            - arn:aws:dynamodb:us-east-1:*:table/${self:provider.environment.DYNAMO_DB_USERS_TABLE}
+        - Effect: Allow
+          Action:
+            - dynamodb:PutItem
+            - dynamodb:GetItem
+            - dynamodb:UpdateItem
+            - dynamodb:Scan
+          Resource:
+            - arn:aws:dynamodb:us-east-1:*:table/${self:provider.environment.NEWS_TABLE_NAME}
+        - Effect: Allow
+          Action: lambda:InvokeFunction
+          Resource: "*"
+        - Effect: Allow
+          Action: sns:Publish
+          Resource: ${self:provider.environment.SNS_TOPIC_ARN}
+        - Effect: Allow
+          Action: 
+            - lex:*
+            - transcribe:*
+          Resource: '*'
+        - Effect: Allow
+          Action:
+            - lex:RecognizeText
+            - lex:StartConversation
+          Resource: ${env:TELEGRAM_ARN}
+
+functions:
+
+  router:
+    handler: router.handle_router
+
+  storeNews:
+    handler: handlers/news.store_news
+    events: 
+      - schedule: rate(10 hours)
+
+    
+  telegramToLex:
+    handler: middleware/telegramToLex.telegram_handler
+    timeout: 30
+    events:
+      - http:
+          path: telegram-webhook
+          method: POST
+          cors: true
+
+  updateSessionLex:
+    handler: handlers/update_lex_session.handler
+    events:
+      - http:
+          path: lex
+          method: POST
+          cors: true
+
+plugins:
+  - serverless-offline
+  - serverless-python-requirements
+
+package:
+  exclude:
+    - node_modules/**
+    - venv/**

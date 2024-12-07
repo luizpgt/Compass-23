@@ -1,0 +1,173 @@
+commit 149b59f2b41240cf63b79256aade9243f7d85006
+Author: Fabiano Mendonça <mendonca.biano@gmail.com>
+Date:   Mon Sep 4 14:24:49 2023 -0300
+
+    :books: docs: observação sobre .env e alteração da imagem da arquitetura
+
+commit 012ef24f8848bbbb936bc0d67b10278cf0f546e0
+Author: Matheus Henrique <matheus1604.mh@gmail.com>
+Date:   Mon Sep 4 14:00:46 2023 -0300
+
+    :sparkles:feat: Adicionar terraform para deploy da infraestrutura na aws
+
+commit 40cc600699681b16c202e192b9280eb0fe8f1ad9
+Author: luizpgt <luiz.paulus51@gmail.com>
+Date:   Mon Sep 4 13:39:04 2023 -0300
+
+    🔨 fix: audio agora é enviado com acesso público no s3
+
+commit 09ac85dd79a133c880aa0feb24544c75067b3b26
+Author: luizpgt <luiz.paulus51@gmail.com>
+Date:   Mon Sep 4 12:03:13 2023 -0300
+
+    📚 docs: alterações nos passos para rodar aplicação
+
+commit 6f1d05b2da8887f5f5161e9ab1f200ac1109f553
+Author: luizpgt <luiz.paulus51@gmail.com>
+Date:   Mon Sep 4 11:29:49 2023 -0300
+
+    ✨:feat: plugin do serverless para env das funcoes lambda adicionado
+
+commit 0b7908f588a754e38a28e72e91be548bc57fee80
+Author: Fabiano Mendonça <mendonca.biano@gmail.com>
+Date:   Mon Sep 4 04:09:29 2023 -0300
+
+    :books: docs: adicionando arquitetura e execução local
+
+commit 28432b613359b5f0b6257f39af0f9138e0341962
+Author: John Silveira <john.silveira.pb@compasso.com.br>
+Date:   Sun Sep 3 23:56:08 2023 -0300
+
+    ✨ feat: tratar textos vazios
+
+commit 778dae6602b21b7db723e784ab5b46a5e66e9715
+Author: John Silveira <john.silveira.pb@compasso.com.br>
+Date:   Sun Sep 3 23:30:26 2023 -0300
+
+    📚 docs: adicionar, ao readme, dificuldades encontradas
+
+commit 584e694468500c7c6ddfce1947f3558c0fecc14c
+Author: John Silveira <john.silveira.pb@compasso.com.br>
+Date:   Sun Sep 3 23:13:15 2023 -0300
+
+    📚 docs: readme atualizado com diretrizes do projeto
+
+commit 8ddf6dbedabd631ff9c878a7b961dc272025b1ca
+Author: luizpgt <luiz.paulus51@gmail.com>
+Date:   Sun Sep 3 21:10:37 2023 -0300
+
+    🔨 fix: tratamento de erros + comentários adicionados
+
+commit bbb14cdd62cf05c0e8fbc73affb40c7fdc486b07
+Author: John Silveira <john.silveira.pb@compasso.com.br>
+Date:   Sun Sep 3 17:57:37 2023 -0300
+
+    🎨 style: correção de cores ao digitar a frase
+
+commit e940f1526a8f425f7968b2fb259d6b10b364eb45
+Author: John Silveira <john.silveira.pb@compasso.com.br>
+Date:   Sun Sep 3 17:27:02 2023 -0300
+
+    ✨ feat: js funcionado
+
+commit 6cba726dc23f199c4ea1502c124f5bf51fa5f69c
+Author: John Silveira <john.silveira.pb@compasso.com.br>
+Date:   Sun Sep 3 17:08:41 2023 -0300
+
+    🎨 style: contorno das letras dos botões
+
+commit 2f8322da0158f686f9060c881255ad7ccc92945f
+Author: John Silveira <john.silveira.pb@compasso.com.br>
+Date:   Sun Sep 3 16:53:43 2023 -0300
+
+    🎨 style: front finalizado
+
+commit c436dbe9357d9e870e28912cef99e6490ba45936
+Author: luizpgt <luiz.paulus51@gmail.com>
+Date:   Sat Sep 2 23:29:35 2023 -0300
+
+    ✨feat: nova rota v3/tts
+
+commit e0472f258f5c8019e4b1fbd118396d703000acd4
+Author: luizpgt <luiz.paulus51@gmail.com>
+Date:   Sat Sep 2 22:37:20 2023 -0300
+
+    ✨feat: nova rota v2/tts
+
+commit b893637ea6c2566480b3de1b3aedc6e7e55aaa2b
+Author: luizpgt <luiz.paulus51@gmail.com>
+Date:   Sat Sep 2 20:37:14 2023 -0300
+
+    🔨 fix: ajustes - sls deploy agora possível
+
+commit 66387933fa7cb6d4b1f071c51ee98427036ca331
+Author: luizpgt <luiz.paulus51@gmail.com>
+Date:   Sat Sep 2 17:40:39 2023 -0300
+
+    :sparkles:feat: nova rota v1/tts
+
+commit f495b2c25137167c4d6752c4425731a4d3ad429f
+Author: John Silveira <john.silveira.pb@compasso.com.br>
+Date:   Sat Sep 2 15:20:51 2023 -0300
+
+    ♻️ref: transformar div em botão
+
+commit d1ab1da5ad367399b7abf8f2cacb8c02f06e1cb9
+Author: John Silveira <john.silveira.pb@compasso.com.br>
+Date:   Sat Sep 2 15:09:32 2023 -0300
+
+    🎨 style: criação do front ainda não funcional
+
+commit 56178a7817809fa80e6d19cdc4ee148a5552655c
+Author: Matheus Henrique <matheus1604.mh@gmail.com>
+Date:   Fri Sep 1 01:17:35 2023 -0300
+
+    :books:docs: Adicionar nome do projeto e shields ao readme com as tecnlogias utilizadas
+
+commit b50f2c6eedfa361688227febb02e732046900c45
+Author: Matheus Henrique <matheus1604.mh@gmail.com>
+Date:   Thu Aug 31 23:59:59 2023 -0300
+
+    :sparkles:feat: Criação de bucket, lambda_function e iam_role/policies(s3, polly) usando terraform
+
+commit c0c868b534427bc5378475f20961284b727db398
+Author: John Silveira <john.silveira.pb@compasso.com.br>
+Date:   Tue Aug 29 20:08:14 2023 -0300
+
+    🎉 init: criação da branch
+
+commit 3fa6b4fe7d14551e1c29047dde3c332b9dd9fdc3
+Author: João Victor P. B. Avanzini <36644804+joaoavanzini@users.noreply.github.com>
+Date:   Fri Aug 25 15:41:50 2023 -0300
+
+    Rename Atualizando a data de entrega do README.md to README.md
+
+commit 308b7acfcb051d5c577d37d6b07ad88818ce6c60
+Author: João Victor P. B. Avanzini <36644804+joaoavanzini@users.noreply.github.com>
+Date:   Fri Aug 25 15:40:56 2023 -0300
+
+    Update and rename README.md to Atualizando a data de entrega do README.md
+
+commit 554fa297f4203cc000506de9c96fab33bcaf168e
+Author: Derick Cardoso da Silva <derick.cardoso17@gmail.com>
+Date:   Thu Aug 24 16:22:03 2023 -0300
+
+    docs: adding api-tts
+
+commit e152c8a8ae106ca7bff6fa6c4f15e294331cdbcf
+Author: Derick Cardoso da Silva <derick.cardoso17@gmail.com>
+Date:   Thu Aug 24 16:14:25 2023 -0300
+
+    docs: adding assets
+
+commit 63ba05a910aff511431e0a97c2ec01f4232ba764
+Author: Derick Cardoso da Silva <derick.cardoso17@gmail.com>
+Date:   Thu Aug 24 16:12:57 2023 -0300
+
+    Update README.md
+
+commit 9a0848059badeab1935ae02f3b4c1d7d5ffafcef
+Author: Derick Cardoso da Silva <derick.cardoso17@gmail.com>
+Date:   Thu Aug 24 16:10:14 2023 -0300
+
+    Initial commit

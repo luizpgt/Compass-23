@@ -1,0 +1,29 @@
+{
+  "name": "sprint-4",
+  "version": "1.0.0",
+  "description": "project to be presented as the work of the fourth sprint during compass' internship program on cognitive computing | AWS",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Compass-pb-aws-2023-FURG-IFRS-UFFS/sprint-4-pb-aws-furg-ifrs-uffs.git"
+  },
+  "author": "Fabiano S. Mendonca, Josue de M. Fernandes, Luiz P. G. Terres, Matheus H. R. da Costa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Compass-pb-aws-2023-FURG-IFRS-UFFS/sprint-4-pb-aws-furg-ifrs-uffs/issues"
+  },
+  "homepage": "https://github.com/Compass-pb-aws-2023-FURG-IFRS-UFFS/sprint-4-pb-aws-furg-ifrs-uffs#readme",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "axios": "^1.4.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "uuid": "^9.0.0"
+  }
+}

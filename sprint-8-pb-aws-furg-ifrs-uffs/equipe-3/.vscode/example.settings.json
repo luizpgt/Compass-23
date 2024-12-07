@@ -1,0 +1,12 @@
+{
+    "files.exclude": {
+        "**/node_modules": true,
+        "**/__pycache__": true
+    },
+    "rest-client.environmentVariables": {
+        "sandbox": {
+        "host" : "https://your-api-url-here.amazonaws.com"
+        },
+        "production": {}
+    }
+}

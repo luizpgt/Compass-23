@@ -1,0 +1,11 @@
+# Local host
+@host = http://127.0.0.1:3000
+
+### v2_vision
+POST {{host}}/v2/vision
+Content-Type: application/json
+
+{
+  "bucket": "bucket-computer-vision-s8",
+  "imageName": "single_face_21.png"
+}

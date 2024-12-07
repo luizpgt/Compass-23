@@ -1,0 +1,188 @@
+commit 634800be417910cd735ed005173cf76e716f7d46
+Author: luizpgt <luiz.paulus51@gmail.com>
+Date:   Mon Sep 18 11:50:23 2023 -0300
+
+    :sparkles: :hammer: feat and fix: createReservationIntent completed + general fixes
+
+commit 732a14c7bc0dac63be4f7dec612e7e899d388ca0
+Merge: a70c261 a2a4f18
+Author: joaowinderfeldbussolotto <joaowinderfeldbussolotto@gmail.com>
+Date:   Mon Sep 18 10:37:57 2023 -0300
+
+    Merge branch 'equipe-1' of https://github.com/Compass-pb-aws-2023-FURG-IFRS-UFFS/sprint-7-pb-aws-furg-ifrs-uffs into equipe-1
+
+commit a70c26139f0c27e185ad0599cc4a8f82dba733a9
+Author: joaowinderfeldbussolotto <joaowinderfeldbussolotto@gmail.com>
+Date:   Mon Sep 18 10:37:38 2023 -0300
+
+    :sparkles: feat: creating function to update session avaliable seats
+
+commit a2a4f185e6a655d823254755f7a6a2d0572671af
+Merge: 7104a6c fc532c9
+Author: Crisofer Gaier Sais <cristofer.gaier.sais@gmail.com>
+Date:   Mon Sep 18 10:06:13 2023 -0300
+
+    Merge branch 'equipe-1' of https://github.com/Compass-pb-aws-2023-FURG-IFRS-UFFS/sprint-7-pb-aws-furg-ifrs-uffs into equipe-1
+
+commit 7104a6c3888030d1dab58b47251f389d93901b12
+Author: Crisofer Gaier Sais <cristofer.gaier.sais@gmail.com>
+Date:   Mon Sep 18 10:05:26 2023 -0300
+
+    :memo: docs: updating README with database diagram
+
+commit fc532c95d3564cdbf1d77990175262c84b60b303
+Author: Josué Fernandes <josue7mf@hotmail.com>
+Date:   Mon Sep 18 09:46:56 2023 -0300
+
+    :sparkles: feat: code comenting
+
+commit a06923bc0c551940d6f1ff6cca992feb1696775c
+Author: joaowinderfeldbussolotto <joaowinderfeldbussolotto@gmail.com>
+Date:   Mon Sep 18 09:37:04 2023 -0300
+
+    :memo: docs: updating README
+
+commit 9b202cb228a7d78e7a21828793acdb573b6f52de
+Author: luizpgt <luiz.paulus51@gmail.com>
+Date:   Mon Sep 18 03:29:59 2023 -0300
+
+    🐛 fix: fixed seats list formatter for reservation
+
+commit c0c1e56384113d21931a171dca762a1ea6d1fefc
+Author: luizpgt <luiz.paulus51@gmail.com>
+Date:   Mon Sep 18 00:53:23 2023 -0300
+
+    ✨🔧 feat: init create reservation service + minor fixes
+
+commit 57b7325a3b47655798715c3482eff3e73566e968
+Author: joaowinderfeldbussolotto <joaowinderfeldbussolotto@gmail.com>
+Date:   Sun Sep 17 23:54:46 2023 -0300
+
+    :bug: fix: applying regex to email field
+
+commit 343173fa915f13a6918b61d0dc6399c4754be65a
+Author: joaowinderfeldbussolotto <joaowinderfeldbussolotto@gmail.com>
+Date:   Sun Sep 17 22:55:49 2023 -0300
+
+    :bug: fix: altering http status code for when no records found
+
+commit af862bbe5af4004da3c097f00f8a2e2d10470fd7
+Author: joaowinderfeldbussolotto <joaowinderfeldbussolotto@gmail.com>
+Date:   Sun Sep 17 22:44:29 2023 -0300
+
+    :bug: fix: altering reservation id type
+
+commit c3a7ef6f94f44ac8438be42c629fa5c424a6d9ad
+Author: joaowinderfeldbussolotto <joaowinderfeldbussolotto@gmail.com>
+Date:   Sun Sep 17 19:24:08 2023 -0300
+
+    :sparkles: feat: adding email service
+
+commit 86adc422370ba68006b924a86e1e172296f86ab8
+Author: joaowinderfeldbussolotto <joaowinderfeldbussolotto@gmail.com>
+Date:   Sun Sep 17 13:41:20 2023 -0300
+
+    :rocket: env: configuring iam role for lamdba
+
+commit c98777922bf409dc8120d9d0a34750d44e6e957e
+Author: joaowinderfeldbussolotto <joaowinderfeldbussolotto@gmail.com>
+Date:   Sun Sep 17 13:28:19 2023 -0300
+
+    :bug: fix: fixed envvar for cancelling reservation intent
+
+commit 6c27b30cc34c745eaf0182c83a8fcda9710f70f1
+Author: Josué Fernandes <josue7mf@hotmail.com>
+Date:   Sun Sep 17 05:25:11 2023 -0300
+
+    :sparkles: feat: add sessionIntent lambda, and code commenting
+
+commit 05ebab0d28697ef8fb376340015489affbf81d20
+Author: Crisofer Gaier Sais <cristofer.gaier.sais@gmail.com>
+Date:   Sat Sep 16 20:29:33 2023 -0300
+
+    :memo: docs: Adding Initial Readme.
+
+commit 1c990d3c48036e8692b24f99e97ab8fd141de918
+Author: Josué Fernandes <josue7mf@hotmail.com>
+Date:   Sat Sep 16 16:12:37 2023 -0300
+
+    :sparkles: feat: add session controller api
+
+commit 1346e8246bce04f446f6a66d56bdf4bcf4e9f9db
+Author: Crisofer Gaier Sais <cristofer.gaier.sais@gmail.com>
+Date:   Fri Sep 15 19:13:05 2023 -0300
+
+    :sparkles: feat: Alterando variavel de ambiente API_URL para ter somente uma url base para todas as APIs.
+
+commit 7e2c279ae6ba3250d5c2f203b6c39a6e03bd8606
+Merge: d5c113e 1912d1e
+Author: Crisofer Gaier Sais <cristofer.gaier.sais@gmail.com>
+Date:   Fri Sep 15 19:04:39 2023 -0300
+
+    Merge branch 'equipe-1' of https://github.com/Compass-pb-aws-2023-FURG-IFRS-UFFS/sprint-7-pb-aws-furg-ifrs-uffs into equipe-1
+
+commit d5c113ef88a506db24e58cde76b6fb920cddb6e8
+Author: Crisofer Gaier Sais <cristofer.gaier.sais@gmail.com>
+Date:   Fri Sep 15 19:04:02 2023 -0300
+
+    :sparkles: feat: Criando Api e função para o chatbot que realiza a consulta dos filmes em cartaz.
+
+commit 1912d1eefd31a11d5bd8e642ad0b04412eaa671d
+Author: joaowinderfeldbussolotto <joaowinderfeldbussolotto@gmail.com>
+Date:   Fri Sep 15 18:03:11 2023 -0300
+
+    :speech_balloon: translate: en->pt-BR response messages
+
+commit 246adee4ee197a6d8d9966613f6a159d21ffa1ba
+Author: joaowinderfeldbussolotto <joaowinderfeldbussolotto@gmail.com>
+Date:   Fri Sep 15 17:51:10 2023 -0300
+
+    :bug: fix: solved import bug when deleting reservation
+
+commit 9586a0aecdb6ab20f6f311d21690e88bcd5cd941
+Author: joaowinderfeldbussolotto <joaowinderfeldbussolotto@gmail.com>
+Date:   Fri Sep 15 16:51:52 2023 -0300
+
+    :sparkles: feat: adding handleReservation lambda
+
+commit 0af92bfb40666f2fb42967005c56faff7a6cca7b
+Author: Crisofer Gaier Sais <cristofer.gaier.sais@gmail.com>
+Date:   Fri Sep 15 15:20:24 2023 -0300
+
+    :sparkles: feat: Adicionando arquivos de funções lambdas que interagem com o bot.
+
+commit 283dc8994e877271bda7f0bceb46c01a28bee1f5
+Author: Crisofer Gaier Sais <cristofer.gaier.sais@gmail.com>
+Date:   Fri Sep 15 14:08:10 2023 -0300
+
+    :construction: feat: Adicionando estrutura das funções em bot-fulfillment
+
+commit 0124a483212307f7c85b65f748dd3e4ea327fb25
+Author: joaowinderfeldbussolotto <joaowinderfeldbussolotto@gmail.com>
+Date:   Fri Sep 15 00:57:20 2023 -0300
+
+    :sparkles: feat: adding service to query on reservations and delete_reservations endpoint
+
+commit c91a9f2af759a5f9fb951a9aa59daff5fad0b1d0
+Author: joaowinderfeldbussolotto <joaowinderfeldbussolotto@gmail.com>
+Date:   Thu Sep 14 20:00:29 2023 -0300
+
+    :sparkles: feat: adding Reservations endpoint
+
+commit 13257b237d3ecd8a2dc1a191559186d3d0f6f791
+Author: joaowinderfeldbussolotto <joaowinderfeldbussolotto@gmail.com>
+Date:   Thu Sep 14 16:24:31 2023 -0300
+
+    :sparkles: feat: adding models
+
+commit 4a664431b27b1562e3fbd770362657740a248865
+Author: joaowinderfeldbussolotto <joaowinderfeldbussolotto@gmail.com>
+Date:   Thu Sep 14 14:05:20 2023 -0300
+
+    :wrench: :sparkles: feat: adding basic file structure and db connection
+
+commit 12b6b0f79597bf198b63d26ec3bc66ef70c5c316
+Author: daniel-compasso <76558798+daniel-compasso@users.noreply.github.com>
+Date:   Fri Sep 8 17:19:26 2023 -0300
+
+    :tada: init: evaluation lauching.

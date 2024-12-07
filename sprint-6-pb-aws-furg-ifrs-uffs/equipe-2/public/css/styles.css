@@ -1,0 +1,313 @@
+html {
+  font-size: 52.5%;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+ul,
+li {
+  list-style: none;
+}
+input {
+  border: none;
+}
+body {
+  width: 100%;
+}
+
+.principal {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(289.78deg, #222222, #2f2f2f);
+}
+.gradient-text {
+  background: linear-gradient(277.09deg, #fff61f, #ffa15e, #beb320);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.principal .elipse-1 {
+  width: 83.6rem;
+  height: 83.6rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  filter: blur(10rem);
+  background-color: rgba(255, 249, 114, 0.200000003);
+  border-radius: 41.8rem;
+}
+.principal .elipse-2 {
+  width: 71.8rem;
+  height: 71.8rem;
+  position: absolute;
+  left: 104.5rem;
+  top: 65.3rem;
+  filter: blur(10rem);
+  background-color: rgba(253, 253, 253, 0.1399999997);
+  border-radius: 35.9rem;
+}
+.principal .elipse-3 {
+  width: 51.2rem;
+  height: 51.2rem;
+  position: absolute;
+  left: 156.4rem;
+  top: 0;
+  filter: blur(10rem);
+  background-color: rgba(255, 172, 76, 0.150000006);
+  border-radius: 25.6rem;
+}
+.principal .compass-pb-assistente-jDZ {
+  width: 111rem;
+  height: 13.2rem;
+  position: absolute;
+  justify-items: center;
+  left: 52%;
+  top: 20%;
+  transform: translate(-50%, -50%);
+  font-size: 9.0rem;
+  font-weight: 800;
+  line-height: 1.365;
+  font-family: Manrope, "Source Sans Pro";
+  white-space: nowrap;
+  color: linear-gradient(277.09deg, #ffa15e, #d9d31c, #a37b03);
+}
+
+.principal .forms-input {
+  display: grid;
+  grid-template-columns: auto;
+  grid-gap: 0.5rem 1rem;
+  justify-items: center;
+  position: relative;
+  box-sizing: border-box;
+  padding: 3.223rem 4.587rem 1.583rem 4.587rem;
+  width: auto;
+  height: 11.4667rem;
+  cursor: pointer;
+  left: 50%;
+  top: 37%;
+  transform: translate(-50%, -50%);
+}
+.principal .forms-input .frame-2-aud {
+  width: 100%;
+  height: 100%;
+}
+.principal .forms-input .frame-2-aud .frase {
+  box-sizing: border-box;
+  padding-top: 0.86rem;
+  width: 100%;
+  height: 100%;
+  font-size: 4.5867rem;
+  font-weight: 600;
+  line-height: 1.25;
+  text-transform: capitalize;
+  color: rgba(238, 238, 238, 0.150000006);
+  font-family: Manrope, "Source Sans Pro";
+  white-space: nowrap;
+}
+
+[type="text"] {
+  padding: 12px 20px;
+  font-size: 1rem;
+  border-width: solid 0.5733rem rgba(238, 238, 238, 0.3000000119);
+  border-style: solid;
+  border: solid 0.5733rem rgba(238, 238, 238, 0.3000000119);
+  box-shadow: 0 1.72rem 8.6rem rgba(238, 238, 238, 0.1000000015),
+    0 -1.72rem 8.6rem rgba(238, 238, 238, 0.1000000015);
+  border-radius: 1.4333rem;
+  text-align: center;
+  outline: transparent;
+  width: 100%;
+  transition: border-color calc(var(--transition, 0.2) * 1s) ease;
+  background-color: rgba(238, 238, 238, 0.150000006);
+  font-family: Manrope, "Source Sans Pro";
+  white-space: nowrap;
+}
+
+.button-area {
+  align-items: center;
+  display: flex;
+  position: relative;
+  height: auto; 
+  left: 50%;
+  top: 38%;
+  transform: translate(-40%, -70%);
+}
+
+.principal .button {
+  align-items: center;
+  display: flex;
+  position: absolute;
+  padding: 2.5rem 0.35rem;
+  width: 80%;
+  max-width: 35.3rem;
+  height: auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  background: linear-gradient(277.09deg, #ffa15e, #d9d31c, #a39903);
+  border-radius: 1.75rem;
+  cursor: pointer;
+  box-shadow: 0 2.1rem 10.5rem rgba(233, 101, 235, 0.200000003),
+    0 -2.1rem 10.5rem rgba(101, 106, 236, 0.200000003);
+}
+
+.principal .web-button-v1 {
+  left: 2%;
+  transform: translate(10%, -5%);
+}
+
+.principal .web-button-v2 {
+  left: 27%;
+  transform: translate(15%, -5%);
+}
+
+.principal .web-button-v3 {
+  left: 50%;
+  transform: translate(30%, -5%);
+}
+
+.principal .text-button {
+  font-size: 3.5rem;
+  font-weight: 550;
+  line-height: 1.25;
+  color: #ffffff;
+  -webkit-text-stroke: 0.75px #975d00;
+  font-family: Manrope, "Source Sans Pro";
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.principal .magicwand {
+  margin-left: 3rem;
+  margin-right: 2rem;
+  width: 5.3158rem;
+  height: 3.5rem;
+  position: relative;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+
+.principal .resposta {
+  align-items: center;
+  display: none;
+  position: relative;
+  flex-direction: column;
+  margin-bottom: 10px;
+  justify-content: center;
+  height: auto;
+  top: 53%;
+  font-size: 2.0rem;
+  font-weight: 400;
+  line-height: 1.25;
+  color: #ffff;
+  -webkit-text-stroke: 0.75px #975d00;
+  font-family: Manrope, "Source Sans Pro";
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.resposta p {
+  margin: 0;
+}
+
+.resposta-v2 {
+  left: 5%;
+  transform: translate(15%, -5%);
+}
+
+.audio {
+  width: 100%; 
+  max-width: 400px; 
+  display: none;
+  margin-top: 1%;
+  left: 25%;
+  transform: translate(80%, -5%);
+}
+
+@media screen and (min-width: 769px) {
+  html {
+    font-size: 62.5%;
+  }
+
+  .principal {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(289.78deg, #222222, #2f2f2f);
+  }
+
+
+}
+
+
+@media screen and (max-width: 1128px) {
+  html {
+    font-size: 30%; 
+  }
+
+  .principal {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(289.78deg, #222222, #2f2f2f);
+  }
+
+  .principal .compass-pb-assistente-jDZ {
+    font-size: 5rem;
+    transform: translate(-24%, -50%);
+  }
+
+  .principal .frame-2-aud .frase{
+    font-size: 3.5rem;
+    height: auto;
+    width: 100%;
+    max-width: 100%; 
+    padding: 2rem;
+    transform: none;
+    top: initial;
+  }
+
+  .principal .button {
+    width: 90%; 
+    max-width: 20%;
+    height: auto;
+  }
+
+  .principal .web-button-v1 {
+    left:0.5%; 
+    transform: translate(2%, -5%); 
+  }
+
+  .principal .web-button-v2 {
+    left: 27%; 
+    transform: translate(15%, -5%); 
+  }
+
+  .principal .web-button-v3 {
+    left: 50%; 
+    transform: translate(30%, -5%); 
+  }
+
+  .principal .text-button {
+    font-size: 3rem; 
+  }
+
+  .principal .magicwand {
+    margin-left: 0.5rem; 
+    margin-right: 0.25rem;
+    width: 3rem; 
+    height: 2.5rem;
+  }
+
+  .principal .elipse-1,
+  .principal .elipse-2,
+  .principal .elipse-3 {
+    display: none; /* Esconda as elipses em telas menores */
+  }
+}

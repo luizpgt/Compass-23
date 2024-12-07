@@ -1,0 +1,5 @@
+# Local host
+@host = http://127.0.0.1:3000
+
+### v2_description
+GET {{host}}/v2

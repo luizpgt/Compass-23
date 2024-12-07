@@ -1,0 +1,137 @@
+commit 6a9c99984acddf6d1119467867bcadeb644788eb
+Author: luizpgt <luiz.paulus51@gmail.com>
+Date:   Tue Aug 8 17:27:35 2023 -0300
+
+    :memo: docs: updating docs - last modification on readme
+
+commit 5062159d355a525e4f342d7c50bfd17022b2a6d1
+Author: Fabiano Mendonça <54964022+FabianoMendonca@users.noreply.github.com>
+Date:   Tue Aug 8 05:07:46 2023 -0300
+
+    📝 docs: updating readme
+
+commit cf90df3e16d3e4996171c93bfe11e3551dd80530
+Author: Fabiano Mendonça <mendonca.biano@gmail.com>
+Date:   Tue Aug 8 05:03:44 2023 -0300
+
+    📝 docs: updating readme - architecture info
+
+commit ca382e27ea09f52aed72534f423be05cb28ef5b2
+Author: luizpgt <57230577+luizpgt@users.noreply.github.com>
+Date:   Mon Aug 7 15:44:15 2023 -0300
+
+    :memo: docs: up. readme - ec2 link
+
+commit 640775099eaa4aee3c413d5d9c3e7a1a53df4223
+Author: luizpgt <luiz.paulus51@gmail.com>
+Date:   Mon Aug 7 15:18:09 2023 -0300
+
+    :memo: docs: up. readme - ec2 deploy info
+
+commit 2a8d74b1e2523d4cc7597a22c209a790fd84c1d9
+Author: luizpgt <luiz.paulus51@gmail.com>
+Date:   Mon Aug 7 14:34:22 2023 -0300
+
+    :memo: docs: updating readme
+
+commit c2c44c368cc72408f62c338f886a7f5d39a1ac3d
+Author: luizpgt <luiz.paulus51@gmail.com>
+Date:   Mon Aug 7 14:32:01 2023 -0300
+
+    :memo: docs: updating readme - info ab. project
+
+commit 08c42c9f2b68b76d77fc0572010b11167483659e
+Author: Josué Fernandes <josue7mf@hotmail.com>
+Date:   Mon Aug 7 09:56:39 2023 -0300
+
+    :hammer: refactor: Implement try-catch block in piadaController
+
+commit 0da4c2b58d1f1820df71ff6d9505f7cbc08bdf91
+Author: Josué Fernandes <josue7mf@hotmail.com>
+Date:   Mon Aug 7 09:47:04 2023 -0300
+
+    :sparkles: feat: Adding code commenting + helper.js
+
+commit 02e3d6c4654d53ce6fe7742b6b618563c008a96a
+Author: Josué Fernandes <josue7mf@hotmail.com>
+Date:   Mon Aug 7 09:06:07 2023 -0300
+
+    :sparkles: feat: Adding config folder, and example.env
+
+commit c635b55ee121fc0cfc9c0dc5376121cf7ec8c4ef
+Author: Josué Fernandes <josue7mf@hotmail.com>
+Date:   Fri Aug 4 17:19:36 2023 -0300
+
+    :hammer: refactor: Implement try-catch block in atividadeController
+
+commit 75ee85d38ad690ffa13388a0b7d2529ae6de7019
+Author: luizpgt <luiz.paulus51@gmail.com>
+Date:   Tue Aug 1 19:22:04 2023 -0300
+
+    :bulb: :hammer: docs n fix: code commenting + piadaController fixed + standardization of func names
+
+commit cdf678c5d39a13fd6e9e4299aa37dfdc497c789d
+Author: Matheus Henrique <matheus1604.mh@gmail.com>
+Date:   Tue Aug 1 17:07:06 2023 -0300
+
+    :sparkles: feat: Add routes for the Jokes API
+
+commit 214bbc54d9769ce30af0cd497f3069313ee8c376
+Author: Matheus Henrique <matheus1604.mh@gmail.com>
+Date:   Tue Aug 1 16:54:07 2023 -0300
+
+    :sparkles: feat: Created Joke route
+
+commit 5fc812eaf6d6975d763b35b8d1695af312afc208
+Author: Matheus Henrique <matheus1604.mh@gmail.com>
+Date:   Tue Aug 1 15:36:06 2023 -0300
+
+    :sparkles: feat: Created Joke controller
+
+commit 8de232c3a4dd81d293a598115990fa2ffbbfdd3b
+Author: luizpgt <luiz.paulus51@gmail.com>
+Date:   Tue Aug 1 14:11:42 2023 -0300
+
+    :bulb: :hammer: docs n fix: code commenting and minor code adjust
+
+commit ab03d4aa75cf1a081599e960a37410140f53cb67
+Author: luizpgt <luiz.paulus51@gmail.com>
+Date:   Tue Aug 1 13:46:54 2023 -0300
+
+    :hammer: refactor: new env var + semicolons removed
+
+commit 5afef872e38c00467d556b883ced51dd4b7078db
+Author: Josué Fernandes <josue7mf@hotmail.com>
+Date:   Tue Aug 1 00:10:36 2023 -0300
+
+    :hammer: refactor: Unnecessary import removed
+
+commit 0708be265dc71581eb1b9db98d1457dca6b28536
+Author: Josué Fernandes <josue7mf@hotmail.com>
+Date:   Mon Jul 31 22:31:18 2023 -0300
+
+    :sparkles: feat: Created activity controller and route respective
+
+commit 9c1265a5a4e1317859638e033cf5a980aff0c7fe
+Author: Josué Fernandes <josue7mf@hotmail.com>
+Date:   Mon Jul 31 21:02:24 2023 -0300
+
+    :sparkles: feat: home route and api_urls added
+
+commit 91528961a8f2f73b8b50e94fc5199330c777ec8a
+Author: luizpgt <luiz.paulus51@gmail.com>
+Date:   Mon Jul 31 17:29:23 2023 -0300
+
+    :sparkles: :tada: init: file structure added
+
+commit 65f683c783b08c310e6799f18d72f7b36dc6c1b4
+Author: Derick Cardoso da Silva <derick.cardoso17@gmail.com>
+Date:   Fri Jul 28 12:24:42 2023 -0300
+
+    Update README.md
+
+commit 0fe0e092919a59111b8d6fb5ae3bea565ee237cd
+Author: Derick Cardoso da Silva <derick.cardoso17@gmail.com>
+Date:   Fri Jul 28 10:12:23 2023 -0300
+
+    Initial commit

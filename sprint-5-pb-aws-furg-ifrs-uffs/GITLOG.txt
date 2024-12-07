@@ -1,0 +1,131 @@
+commit 33ee5640368917ca4e18b26d9fbc44f4edc3fa23
+Author: luizpgt <luiz.paulus51@gmail.com>
+Date:   Mon Aug 21 11:55:03 2023 -0300
+
+    :memo: docs: updating readme
+
+commit 9fa8580b151e50cc70475d12bda93a2f2de06c49
+Author: luizpgt <luiz.paulus51@gmail.com>
+Date:   Mon Aug 21 14:54:25 2023 +0000
+
+    :hammer: refactor: organizing and cleaning notebook files
+
+commit e619d8363e75f2c8832c077b18b8c330ff308d0e
+Author: luizpgt <luiz.paulus51@gmail.com>
+Date:   Mon Aug 21 11:42:20 2023 -0300
+
+    :memo: docs: updating readme
+
+commit 4cd920b6018b24895c273560b7b7a3a9fcb2437f
+Author: luizpgt <luiz.paulus51@gmail.com>
+Date:   Mon Aug 21 11:01:54 2023 -0300
+
+    :hammer: refactor: organizing env variables
+
+commit e5c904a2403a1fec0add16416a01e787d10acd08
+Author: luizpgt <luiz.paulus51@gmail.com>
+Date:   Mon Aug 21 02:59:48 2023 -0300
+
+    :sparkles: feat: api route getting predictions from sagemaker xgboost endpoint
+
+commit 7021b465ec00a21324d6707ee42e4bacbd8a9845
+Author: Paulocc <56320754+Paulocc@users.noreply.github.com>
+Date:   Sun Aug 20 23:43:38 2023 -0300
+
+    📝 docs: updating readme
+
+commit 39d15abe53816c166bec1552b88bda20b7ffd354
+Author: luizpgt <luiz.paulus51@gmail.com>
+Date:   Sat Aug 19 23:00:21 2023 +0000
+
+    ✨feat: xgboost model deployed
+
+commit b34d4296d0d6a34146bb6e47a572baad8e9b4774
+Author: luizpgt <luiz.paulus51@gmail.com>
+Date:   Sat Aug 19 21:14:33 2023 +0000
+
+    ✨feat: linear learner model deployed as a test
+
+commit 1f6f930b1830fe2c436513c333027e07ca157852
+Author: luizpgt <luiz.paulus51@gmail.com>
+Date:   Sat Aug 19 19:58:23 2023 +0000
+
+    ✨feat: sagemaker configuration stage
+
+commit ab3ecbc0b2e6df6e21369e78eaef1ab5ba3eeff1
+Author: luizpgt <luiz.paulus51@gmail.com>
+Date:   Sat Aug 19 19:25:40 2023 +0000
+
+    ✨ feat: dataset analysis + pre processing data
+
+commit be8b221cba8a99e41152362f830eb01e73e4d411
+Author: Paulocc <56320754+Paulocc@users.noreply.github.com>
+Date:   Thu Aug 17 22:32:24 2023 -0300
+
+    ✨feat:  adding more fields to return
+
+commit a0d2d951c42a3f36868d44571f45fb7eeccb810a
+Author: joaowinderfeldbussolotto <joaowinderfeldbussolotto@gmail.com>
+Date:   Thu Aug 17 16:07:49 2023 -0300
+
+    :whale: env: adding docker configuration files for deployment on aws
+
+commit e79c1c38f93fbff3a1656ac4518966226203d337
+Author: luizpgt <luiz.paulus51@gmail.com>
+Date:   Wed Aug 16 19:53:17 2023 +0000
+
+    ✨ feat: filtered dataset persisted + ready to perform autopilot experiment
+
+commit cbc177729755b8dec75ce9b5a31318fe5fad1b50
+Author: joaowinderfeldbussolotto <joaowinderfeldbussolotto@gmail.com>
+Date:   Wed Aug 16 16:00:43 2023 +0000
+
+    :sparkles: feat: preparing dataset according to the requirements
+
+commit 689240750a1b4f65f5df891422000ef3e14bcd0e
+Author: joaowinderfeldbussolotto <joaowinderfeldbussolotto@gmail.com>
+Date:   Wed Aug 16 12:49:09 2023 -0300
+
+    :wrench: chore: updating gitignore
+
+commit d32418513184169d5a248dc97ff9397fd51d7588
+Author: joaowinderfeldbussolotto <joaowinderfeldbussolotto@gmail.com>
+Date:   Mon Aug 14 17:34:51 2023 -0300
+
+    :sparkles: feat: adding services module
+
+commit 401d1a4316065035d083d2f9f42d15238ef2815b
+Author: joaowinderfeldbussolotto <joaowinderfeldbussolotto@gmail.com>
+Date:   Fri Aug 11 19:54:50 2023 -0300
+
+    :card_index: env: adding requirements file
+
+commit c16d4422ebc8d816c3e4a2126d92170aeceb534d
+Author: joaowinderfeldbussolotto <joaowinderfeldbussolotto@gmail.com>
+Date:   Fri Aug 11 19:49:32 2023 -0300
+
+    :sparkles: feat: adding schemas for request and response
+
+commit 6dae79bbe9a2cdeba67dbbb90837ffae28a946c5
+Author: joaowinderfeldbussolotto <joaowinderfeldbussolotto@gmail.com>
+Date:   Fri Aug 11 19:18:52 2023 -0300
+
+    :tada: init: adding basic file structure for api
+
+commit c1b6ee446b245e5ad42bd85bb569d8cded3238ee
+Author: Derick Cardoso da Silva <derick.cardoso17@gmail.com>
+Date:   Thu Aug 10 15:38:32 2023 -0300
+
+    docs: Adicionando assets
+
+commit 38b5e30b8010a08408b783be88e4e2835ca8ff21
+Author: Derick Cardoso da Silva <derick.cardoso17@gmail.com>
+Date:   Thu Aug 10 14:37:59 2023 -0300
+
+    Update README.md
+
+commit 1f2d8c6d2e60b8d4137dc201f9ea42ac45b07fcd
+Author: Derick Cardoso da Silva <derick.cardoso17@gmail.com>
+Date:   Thu Aug 10 14:32:04 2023 -0300
+
+    Initial commit

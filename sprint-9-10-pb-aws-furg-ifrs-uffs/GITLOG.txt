@@ -1,0 +1,448 @@
+commit 4387b40aa07b366357a3384ac10d68a0dea738f3
+Author: luizpgt <luiz.paulus51@gmail.com>
+Date:   Wed Nov 8 11:41:17 2023 -0300
+
+    🔨 fix: extra prints removed + s3 service module
+
+commit 6318476dd19c2e151c3e0d28905f7d215a577fdb
+Author: Paulocc <56320754+Paulocc@users.noreply.github.com>
+Date:   Wed Nov 8 11:21:09 2023 -0300
+
+    📚 docs: updating readme
+
+commit 70aa1cee4d0850c7ad009a27beb269548662beec
+Author: joaowinderfeldbussolotto <joaowinderfeldbussolotto@gmail.com>
+Date:   Tue Nov 7 14:14:57 2023 -0300
+
+    :sparkles: feat: adding voice support on telegram
+
+commit 91e5b2f5895c745a8e2ae2ef324de6b61f0b1de1
+Author: Gregory-JP <63425849+Gregory-JP@users.noreply.github.com>
+Date:   Tue Nov 7 11:13:38 2023 -0300
+
+    📃 docs: atalizacao do README sobre o desenvolvimento do projeto
+
+commit 639bc1631fbd6cfdc5d06ba39871b86b5f2ac3ae
+Author: gregory <gregorypitthan@furg.br>
+Date:   Mon Oct 30 17:08:49 2023 -0300
+
+    🔨 fix: fixed small issues on newsIntent
+
+commit f8d445f852bd4a2bb364c8bce85832d8af0dce72
+Merge: dd9c055 2f62fce
+Author: gregory <gregorypitthan@furg.br>
+Date:   Mon Oct 30 15:58:30 2023 -0300
+
+    Merge branch 'equipe-1' of https://github.com/Compass-pb-aws-2023-FURG-IFRS-UFFS/sprint-9-10-pb-aws-furg-ifrs-uffs into equipe-1
+
+commit 2f62fce664fe0f56b4d3227bb70927d72116a9bf
+Author: joaowinderfeldbussolotto <joaowinderfeldbussolotto@gmail.com>
+Date:   Mon Oct 30 15:58:10 2023 -0300
+
+    :hammer: fix router handler
+
+commit dd9c055250fdd670beb04526e2bf6ef5701fb395
+Merge: b55ef16 b4c27c9
+Author: gregory <gregorypitthan@furg.br>
+Date:   Mon Oct 30 15:53:48 2023 -0300
+
+    Merge branch 'equipe-1' of https://github.com/Compass-pb-aws-2023-FURG-IFRS-UFFS/sprint-9-10-pb-aws-furg-ifrs-uffs into equipe-1
+
+commit b55ef162fd4e29495ef538e0131cdb61070cfcfb
+Author: gregory <gregorypitthan@furg.br>
+Date:   Mon Oct 30 15:53:43 2023 -0300
+
+    ✨ feat: choosing the number of news
+
+commit b4c27c96274ed692995711cec8bb991aea325f89
+Author: joaowinderfeldbussolotto <joaowinderfeldbussolotto@gmail.com>
+Date:   Mon Oct 30 15:50:31 2023 -0300
+
+    :sparkles: feat: adding scheduled function to scrap news
+
+commit 03552b451d0630ca4997b84dc35d38e1248acc07
+Author: Matheus Henrique <matheus1604.mh@gmail.com>
+Date:   Mon Oct 30 13:59:15 2023 -0300
+
+    :construction_worker: env: refactoring IaC structure
+
+commit 3677c8d1ff3120431317d4ad8b58a6230be0ade1
+Author: joaowinderfeldbussolotto <joaowinderfeldbussolotto@gmail.com>
+Date:   Mon Oct 30 11:44:55 2023 -0300
+
+    :hammer: refactor: improving update schedule logic
+
+commit fb807d40b6d4ba56d27b4a1d88429a20ffedf053
+Author: joaowinderfeldbussolotto <joaowinderfeldbussolotto@gmail.com>
+Date:   Mon Oct 30 09:27:27 2023 -0300
+
+    :hammer: fix: fixing import error on schedule intent
+
+commit eb17aad7d48d88c123255cc36a3f48eebf448a96
+Author: luizpgt <luiz.paulus51@gmail.com>
+Date:   Mon Oct 30 03:12:52 2023 -0300
+
+    ♻️🔥 refactor n fix: all content from old cc-bot-api updated and reorganized into bot-lex-backend
+
+commit d74b5d0fded1c97c49beb11bfd25082a9fa4ebc8
+Author: luizpgt <luiz.paulus51@gmail.com>
+Date:   Mon Oct 30 02:32:40 2023 -0300
+
+    🔨 fix: code review and organization on schedule intent related script files
+
+commit 11e2112ef47a7180d57e84803d0ddf6bd7fd8359
+Author: luizpgt <luiz.paulus51@gmail.com>
+Date:   Mon Oct 30 02:20:54 2023 -0300
+
+    ✨ feat: backend (handler) ru menu intent implemented
+
+commit fd753318d683eb273147594d4745088c9a50c26d
+Merge: 9873bdd 39ff1aa
+Author: joaowinderfeldbussolotto <joaowinderfeldbussolotto@gmail.com>
+Date:   Sun Oct 29 21:00:39 2023 -0300
+
+    :hammer: fix: adding chat id param to results page
+
+commit 9873bdd1ddf0296832b55fe6503f97cc7b74c3a4
+Author: joaowinderfeldbussolotto <joaowinderfeldbussolotto@gmail.com>
+Date:   Sun Oct 29 21:00:15 2023 -0300
+
+    :hammer: fix: adding chat id param in results page
+
+commit 39ff1aa4ace6abd1ea79f619770a66ef48e2dc75
+Author: luizpgt <luiz.paulus51@gmail.com>
+Date:   Sat Oct 28 17:42:21 2023 -0300
+
+    🔥✨feat n fix: code review on lex bot backend + switching handlers from lambdas to normal functions
+
+commit 12fd270ff9914395ff1ae8954176fbe27da8fc93
+Author: luizpgt <luiz.paulus51@gmail.com>
+Date:   Sat Oct 28 03:17:52 2023 -0300
+
+    🔨 fix: organizing+code review on CONTACT intent related script files
+
+commit 54673850b2829c565d287782f76613e05bfe312c
+Author: luizpgt <luiz.paulus51@gmail.com>
+Date:   Sat Oct 28 02:53:59 2023 -0300
+
+    🔨 fix: organizing+code review on DOCUMENTS intent related script files
+
+commit 33910e6d592531427bd7d979a707636cd06a6bf6
+Author: luizpgt <luiz.paulus51@gmail.com>
+Date:   Sat Oct 28 02:38:59 2023 -0300
+
+    🔨 fix: organizing CONTACT US intent related script files
+
+commit 2fff2abc1b800e4f4592aa1e180711074bb23fbe
+Author: luizpgt <luiz.paulus51@gmail.com>
+Date:   Sat Oct 28 02:16:44 2023 -0300
+
+    🔥🔨 fix: organizing+code review on NEWS intent related script files
+
+commit 7eb3dbe2dc8ecbc0cc21fd130c16f955785a29da
+Author: joaowinderfeldbussolotto <joaowinderfeldbussolotto@gmail.com>
+Date:   Fri Oct 27 17:11:32 2023 -0300
+
+    :construction_worker: env: setting up token expiration time
+
+commit 4ac2b5dd237d0e796e828dc7b0aa06440792aacc
+Author: joaowinderfeldbussolotto <joaowinderfeldbussolotto@gmail.com>
+Date:   Fri Oct 27 17:05:35 2023 -0300
+
+    :sparkles: feat: login improved
+
+commit d2c439b26b6cee56d695651066d4d537efc1177d
+Author: gregory <gregorypitthan@furg.br>
+Date:   Fri Oct 27 10:53:05 2023 -0300
+
+    ♻ refactor: using f strings for interpolation and formatting
+
+commit 0b2b6673109c48760449e34d80f5b98ebb2ae4e7
+Author: gregory <gregorypitthan@furg.br>
+Date:   Fri Oct 27 10:28:54 2023 -0300
+
+    📃 docs: adding comments and documentation to the code
+
+commit 531415dc13847e0fb1d07824a87f2f04e1505015
+Author: gregory <gregorypitthan@furg.br>
+Date:   Fri Oct 27 10:14:59 2023 -0300
+
+    ♻ refactor: removing unnecessary print statements
+
+commit 4cc1722c52e8d963984c64f538d1434404def4b2
+Author: gregory <gregorypitthan@furg.br>
+Date:   Fri Oct 27 10:11:34 2023 -0300
+
+    🐛 fix: sorting the news by id
+
+commit 0f4b71947078fd7ac919c8f766b576d37c47e786
+Author: gregory <gregorypitthan@furg.br>
+Date:   Fri Oct 27 10:09:09 2023 -0300
+
+    ✨ feat: adding the audio link to the news
+
+commit 430ee774462baa14f9d653d4bfb61ceae6af92bb
+Merge: d2aeddd fda5821
+Author: gregory <gregorypitthan@furg.br>
+Date:   Thu Oct 26 19:42:16 2023 -0300
+
+    Merge branch 'equipe-1' of https://github.com/Compass-pb-aws-2023-FURG-IFRS-UFFS/sprint-9-10-pb-aws-furg-ifrs-uffs into equipe-1
+
+commit d2aeddd490100c9f77b06961f5f76de4e9863346
+Author: gregory <gregorypitthan@furg.br>
+Date:   Thu Oct 26 19:42:05 2023 -0300
+
+    ✨ feat: adding newsIntent urls and DyanamoDB
+
+commit fda582123043185f3d369b8f45ff2c3bf995dc66
+Author: joaowinderfeldbussolotto <joaowinderfeldbussolotto@gmail.com>
+Date:   Thu Oct 26 17:38:42 2023 -0300
+
+    :sparkles: feat: adding function to clean up unused objects from bucket
+
+commit 49213622edef22418b7ad9b87668d58ac47faee3
+Author: gregory <gregorypitthan@furg.br>
+Date:   Thu Oct 26 15:54:19 2023 -0300
+
+    ✨ feat: adding the files for GetNewsIntent
+
+commit 28d836262f11b65571e52684031508e6d23e3330
+Author: Matheus Henrique <matheus1604.mh@gmail.com>
+Date:   Wed Oct 25 20:10:59 2023 -0300
+
+    :sparkles: feat: adding handler for GetDocumentsIntent
+
+commit 43f0a5a1fa7fa4039cf83fe9544b09ce55d144f9
+Author: joaowinderfeldbussolotto <joaowinderfeldbussolotto@gmail.com>
+Date:   Wed Oct 25 14:48:18 2023 -0300
+
+    :bug: fix: rekognition was unable to process some student docs files
+
+commit eda3b2348501084c15213a56af64a37d5ef4ca7e
+Author: joaowinderfeldbussolotto <joaowinderfeldbussolotto@gmail.com>
+Date:   Tue Oct 24 09:37:55 2023 -0300
+
+    :sparkles: feat: adding handler for get schedule intent
+
+commit 82b41982674cd1157153dd83fcc9e7259a413e62
+Author: joaowinderfeldbussolotto <joaowinderfeldbussolotto@gmail.com>
+Date:   Tue Oct 24 08:48:10 2023 -0300
+
+    :sparkles: feat: improving messages to user
+
+commit 93bea1b6255fd2cc5d64cacf2280e647bec31184
+Author: Paulocc <56320754+Paulocc@users.noreply.github.com>
+Date:   Tue Oct 24 02:09:37 2023 -0300
+
+    ✨ feat:  adding backend for GetContactIntent
+
+commit e3365104a49ea08ba0fc2b299df2d8f2e37c4d6d
+Author: Matheus Henrique <matheus1604.mh@gmail.com>
+Date:   Mon Oct 23 15:13:18 2023 -0300
+
+    :sparkles: feat: adding backend for GetDocumentsIntent
+
+commit bb37d632e07d351de9b666c2215a13b0ed5d992a
+Author: joaowinderfeldbussolotto <joaowinderfeldbussolotto@gmail.com>
+Date:   Mon Oct 23 14:56:03 2023 -0300
+
+    :feat: sparkles: disabling instruction screen
+
+commit fd07578e5327b948d184453dc2c06e8d7d3e157a
+Author: joaowinderfeldbussolotto <joaowinderfeldbussolotto@gmail.com>
+Date:   Mon Oct 23 14:55:36 2023 -0300
+
+    :bug: fix: message was being sent as statusCode and vice versa
+
+commit c79b7391a61433fdf95bfb05ced7f4b21e0fb965
+Author: joaowinderfeldbussolotto <joaowinderfeldbussolotto@gmail.com>
+Date:   Mon Oct 23 10:35:02 2023 -0300
+
+    :sparkles: feat: adding sign up feature via student doc
+
+commit ba3c97efbe5f7336643b79cf3b4d3b31d41ff196
+Author: joaowinderfeldbussolotto <joaowinderfeldbussolotto@gmail.com>
+Date:   Sun Oct 22 20:45:10 2023 -0300
+
+    :sparkles: feat: adding log schedule feature
+
+commit 800abb621734ce894ee5df750625c4afcbef318b
+Author: Paulocc <56320754+Paulocc@users.noreply.github.com>
+Date:   Fri Oct 20 19:09:10 2023 -0300
+
+    🐛 Bugfix: fixing major telegram bot bugs
+
+commit 110b1eaeb715ad0319ae6f96ecbf4d793690ff87
+Author: Paulocc <56320754+Paulocc@users.noreply.github.com>
+Date:   Thu Oct 19 21:09:28 2023 -0300
+
+    ✨ feat: integration with telegram
+
+commit 0d3c7b1a8f19170eb2fd1507e24e3cb73b97cc81
+Author: joaowinderfeldbussolotto <joaowinderfeldbussolotto@gmail.com>
+Date:   Thu Oct 19 19:00:44 2023 -0300
+
+    :sparkles: feat: handling errors with exceptions and improvements on frontend
+
+commit 477ce6c248cc67bd170c600bd64f9c459665fc60
+Author: joaowinderfeldbussolotto <joaowinderfeldbussolotto@gmail.com>
+Date:   Wed Oct 18 18:53:16 2023 -0300
+
+    :hammer: refactor: removing debug print
+
+commit 7ec95cce49daf7854679e86b1807a69884b73093
+Author: joaowinderfeldbussolotto <joaowinderfeldbussolotto@gmail.com>
+Date:   Wed Oct 18 18:51:08 2023 -0300
+
+    :sparkles: feat: adding token check endpoint
+
+commit b53c8045d31e111e198e167aa4da561ca8e64a2e
+Author: joaowinderfeldbussolotto <joaowinderfeldbussolotto@gmail.com>
+Date:   Wed Oct 18 15:21:24 2023 -0300
+
+    :hammer: refactor: comparing faces without sending to bucket
+
+commit 2dd1cde0fdc9b9d58bdd04b30e700987454eb533
+Author: joaowinderfeldbussolotto <joaowinderfeldbussolotto@gmail.com>
+Date:   Wed Oct 18 15:11:07 2023 -0300
+
+    :hammer: refactor: spliting backend into modules
+
+commit 55eba8985a5f5b69ea467a69f29506b74d5f9694
+Author: joaowinderfeldbussolotto <joaowinderfeldbussolotto@gmail.com>
+Date:   Wed Oct 18 14:17:51 2023 -0300
+
+    :construction_worker: env: building authentication infra via Terraform
+
+commit b11329f991b6432c993f6693f705325a973b5316
+Author: joaowinderfeldbussolotto <joaowinderfeldbussolotto@gmail.com>
+Date:   Tue Oct 17 22:27:11 2023 -0300
+
+    :sparkles: feat: adding auth logic with CompareFaces
+
+commit e8ebe57133727770760c27c3da2c20413fddab47
+Author: joaowinderfeldbussolotto <joaowinderfeldbussolotto@gmail.com>
+Date:   Tue Oct 17 17:28:06 2023 -0300
+
+    :sparkles: feat: storing liveness img on bucket
+
+commit a75225a1d55ad5473edb7a03613a86551402db63
+Author: joaowinderfeldbussolotto <joaowinderfeldbussolotto@gmail.com>
+Date:   Tue Oct 17 17:04:32 2023 -0300
+
+    :sparkles: feat: adding face-liveness-service(backend and frontend)
+
+commit 0332e9ba9e232b2e4ccee2f4fe46ec3cbf961ac9
+Author: Matheus Henrique <matheus1604.mh@gmail.com>
+Date:   Mon Oct 16 21:42:23 2023 -0300
+
+    :construction_worker: env: adding dynamodb tables(lost_and_found, news, LexBotIntentsData)
+
+commit c2080bbfe540628d1bd98d14b451dc0f8944ef5c
+Author: Matheus Henrique <matheus1604.mh@gmail.com>
+Date:   Mon Oct 16 21:41:19 2023 -0300
+
+    :construction_worker: env: adding s3_bucket to terraform
+
+commit 599fae8420ebaa738a6bbb0b2c6ba95bce3b70fe
+Author: Matheus Henrique <matheus1604.mh@gmail.com>
+Date:   Mon Oct 16 21:39:03 2023 -0300
+
+    :construction_worker: env: re-adding tfvars.example
+
+commit aec5e9fd940ba904452577d90960659d9c54a0df
+Merge: 6afcf76 790e393
+Author: gregory <gregorypitthan@furg.br>
+Date:   Mon Oct 16 16:57:59 2023 -0300
+
+    Merge branch 'equipe-1' of https://github.com/Compass-pb-aws-2023-FURG-IFRS-UFFS/sprint-9-10-pb-aws-furg-ifrs-uffs into equipe-1
+
+commit 6afcf767c6d278a061fc3e3ffa12605d2dc98dce
+Author: gregory <gregorypitthan@furg.br>
+Date:   Mon Oct 16 16:57:39 2023 -0300
+
+    ✨ feat: adding the news route
+
+commit 790e3933b609c978ef62114168ba19ea61b976ed
+Author: Matheus Henrique <matheus1604.mh@gmail.com>
+Date:   Mon Oct 16 14:42:45 2023 -0300
+
+    :construction_worker: env: adding s3_bucket resource
+
+commit 6f2b814d7f783004d24069cc15f3ccf4916ee8ba
+Author: Matheus Henrique <matheus1604.mh@gmail.com>
+Date:   Mon Oct 16 14:39:29 2023 -0300
+
+    :construction_worker: env: adding common_tags to main.tf
+
+commit 02529201fe029b7eb88e2076dfebb07ff1da5843
+Author: Matheus Henrique <matheus1604.mh@gmail.com>
+Date:   Mon Oct 16 14:20:29 2023 -0300
+
+    :construction_worker: env: adding backend for terraform statefile
+
+commit d9f9884cc20eef7b413b6cf006f37e6ed8d0726f
+Author: joaowinderfeldbussolotto <joaowinderfeldbussolotto@gmail.com>
+Date:   Sat Oct 14 13:38:13 2023 -0300
+
+    :construction_worker: env: getting topic arn from ssm param
+
+commit 46a8d49f8070c767d50363c1bfc56c0a95511fa1
+Author: joaowinderfeldbussolotto <joaowinderfeldbussolotto@gmail.com>
+Date:   Sat Oct 14 12:20:05 2023 -0300
+
+    :sparkles: feat: adding router function and handler for ContactUsIntent
+
+commit 44fb0bbc8243f21d9c592e9d27f1313e9726f7af
+Author: joaowinderfeldbussolotto <joaowinderfeldbussolotto@gmail.com>
+Date:   Sat Oct 14 10:36:41 2023 -0300
+
+    :construction_worker: env: building SNS topic to message developers
+
+commit 5a6043c7da6d219c4083f26c18419acc532a2353
+Author: luizpgt <luiz.paulus51@gmail.com>
+Date:   Fri Oct 13 18:12:34 2023 -0300
+
+    🔧 feat: initial project structure and organization
+
+commit 389d34adea14f35cae9ce28249f3739878f34a24
+Author: luizpgt <luiz.paulus51@gmail.com>
+Date:   Tue Oct 10 15:05:04 2023 -0300
+
+     📚 docs: added aws arquitecture and project description
+
+commit 546baaded2f872c5e3f569916d7a583b808f7d5f
+Author: Matheus Henrique <matheus1604.mh@gmail.com>
+Date:   Thu Oct 5 16:13:06 2023 -0300
+
+    :books: docs: update readme.
+
+commit d1a0f4d8730468c280781328fe4c16ed04caeb49
+Author: daniel-compasso <76558798+daniel-compasso@users.noreply.github.com>
+Date:   Thu Oct 5 11:06:58 2023 -0300
+
+    :books: docs: update readme.
+
+commit b0b2bf9f4723664b6799f0e110fa5fe341f039c6
+Author: daniel-compasso <76558798+daniel-compasso@users.noreply.github.com>
+Date:   Thu Oct 5 11:05:07 2023 -0300
+
+    :books: docs: update readme.
+
+commit c7797b6ddf1cb11b55c1eef03420c42816e1ad0c
+Author: daniel-compasso <76558798+daniel-compasso@users.noreply.github.com>
+Date:   Wed Oct 4 15:52:02 2023 -0300
+
+    :books: docs: update readme.
+
+commit 085a1acdb7a8f91da400db480e7546b97d7cffd9
+Author: daniel-compasso <76558798+daniel-compasso@users.noreply.github.com>
+Date:   Wed Oct 4 15:38:51 2023 -0300
+
+    :tada: init: evaluation launching.
+
+commit 2b090b9427bf2bea28770a9c530b951b06e77de4
+Author: daniel-compasso <76558798+daniel-compasso@users.noreply.github.com>
+Date:   Wed Oct 4 15:33:12 2023 -0300
+
+    Initial commit

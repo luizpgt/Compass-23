@@ -1,0 +1,25 @@
+<form id="id-selector" action="/filter/" method="GET">
+    <div class="form-floating col-auto">
+        <input type="number" class="form-control" id="id" name="id" placeholder="Enter xkcd ID" value="0">
+        <label for="floatingInput">Search for Comic Id:</label>
+    <div class="col-auto">
+        <button class="btn btn-dark mb-3" type="submit">Submit</button>
+    </div>
+    </div>
+</form>
+
+<h1>{{ wcomic.title }}</h1>
+<h2>{{ wcomic.id}} </h2>
+<div>
+    <button type="button" class="btn btn-dark" onclick="location.href='/comic/id/{{ wcomic.prev }}'">Previous</button>
+    <button type="button" class="btn btn-dark" onclick="location.href='/comic'">Random</button>
+    <button type="button" class="btn btn-dark" onclick="location.href='/comic/id/{{ wcomic.next }}'">Next</button>
+    <button type="button" class="btn btn-dark" onclick="location.href='/comic/last'">Last Released</button>
+    <br><br><br>
+</div>
+<img src="{{ wcomic.url }}" alt="{{ wcomic.description }}" />
+<p > {{ wcomic.description }} </p>
+
+{{#each gifs}}
+<img src="{{ this.url }}" alt="{{ this.title }}" style="height: 150px; display: inline-block; margin-right: 10px;">
+{{/each}}

@@ -1,0 +1,35 @@
+commit 92c098a97b3f722768c34f2b091d36125ed66b55
+Author: luizpgt <luiz.paulus51@gmail.com>
+Date:   Sat Jun 24 15:07:04 2023 -0300
+
+    docs: readme atualizado
+
+commit 3c8618cb70aaab6ca1a76fa9c12c2b2b9ad7ea79
+Author: luizpgt <luiz.paulus51@gmail.com>
+Date:   Sat Jun 24 02:54:55 2023 -0300
+
+    feat and fix: inputs feedback and validations
+
+commit f1e2985ca1b5e7ed0b6493c0921cf40c08ad3110
+Author: luizpgt <luiz.paulus51@gmail.com>
+Date:   Sat Jun 24 01:34:57 2023 -0300
+
+    feat: add 1st user prompt and basic verification
+
+commit 69623082ff293c63bb35b8279f5717f79d11b532
+Author: luizpgt <luiz.paulus51@gmail.com>
+Date:   Sat Jun 24 01:04:21 2023 -0300
+
+    init: branch started + initial files added
+
+commit 24444ceaa49cd3ec70b244d39525d631b41c96c4
+Author: daniel-compasso <76558798+daniel-compasso@users.noreply.github.com>
+Date:   Tue Jun 20 17:56:16 2023 -0300
+
+    :tada: init: evaluation launching.
+
+commit 8ec3bd9d40322fb86d488c895bc1436812653085
+Author: daniel-compasso <76558798+daniel-compasso@users.noreply.github.com>
+Date:   Tue Jun 20 17:52:40 2023 -0300
+
+    Initial commit
